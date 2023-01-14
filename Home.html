@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<style>
+
+html{
+    height: 100%; 
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#MainBox{
+    height: 40vh;
+    width: 70vw; 
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#LogoBox{
+    border: 0px solid;
+    width: 80vw; 
+    font-size: 200px; 
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.699);
+    text-align: left; 
+}
+
+#TextBox{
+    border: 0px solid;
+    width: 30vw; 
+    font-size: 30px; 
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.699);
+    text-align: left; 
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.699); 
+    border: none;
+    color:  rgb(0, 110, 255);
+    padding: 10px 70px;
+    text-align: center;
+    cursor: pointer; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    font-weight: 100;
+    border-radius: 20px;
+}
+
+</style> 
+<body style="background-image: linear-gradient(rgb(76, 0, 255), rgb(65, 209, 253))">
+    <div id="MainBox"> 
+
+        <div id="LogoBox">GoalGoal</div>
+        <div id="TextBox">Setting goals is the #1 key component to success. With GoalGoal name, you will be bale to take full control of your personal and professional life through intelligent goal setting practices.</div>
+        <p><button class = "button" onclick="document.location='SignUp.html'">Sign up</button></p>
+
+    </div>
+    
+</body>
+</html>
+
+

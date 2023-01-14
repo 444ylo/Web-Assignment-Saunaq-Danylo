@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+
+html{
+    height: 100%; 
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#MainBox{
+    height: 80%; 
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.699);
+    position: absolute; 
+    left: 10%;
+    top: 10%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#LogIn{
+    position: absolute; 
+    font-size: 300%;
+    font-family: sans-serif;
+    color:rgb(65, 78, 253);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#submit{
+    border:0;
+    background-color: rgb(0, 17, 255);
+    color: white; 
+    padding: 1rem;
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 20px; 
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    left: 50%;
+    top: 110%;
+    transition: 0.3s;
+}
+
+#submit:hover{
+    opacity: 0.7;
+}
+
+.inputForm{
+    width: 50%;
+    position: absolute; 
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.inputForm > label{
+    display:block; 
+    font-size: 100%;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;  
+    color:rgb(65, 78, 253);
+}
+
+.inputForm > input{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none; 
+    border-radius: 15px;
+    background-color: rgba(249, 249, 249, 0.366);
+}
+
+
+</style>
+
+
+<body style="background-image: linear-gradient(rgb(76, 0, 255), rgb(65, 209, 253))">
+<div id="MainBox"></div>
+<div id="LogIn">Log In</div>
+
+<div> 
+    <form class="inputForm">
+
+        <label for="userID">User ID</label>
+        <input type="text" id="userID" >
+
+        <label for="Password">Password</label>
+        <input type="text" id="password" >
+
+        <input type="submit" value="Submit" id="submit">
+
+        <!-- Add section for sex and language-->
+
+    </form>
+</div>
+    
+</body>
+</html>
