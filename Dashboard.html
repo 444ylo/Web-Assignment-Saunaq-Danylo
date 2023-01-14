@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+
+body{
+    height: 100vh;
+    width: 100vw; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+body *{
+    border: 2px solid red;
+}
+
+.GoalBox > h3{
+    background: -webkit-linear-gradient(rgb(76, 0, 255), rgb(65, 209, 253));
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    font-size: calc(16px + 1vw);
+    line-height: calc(1.1em + 0.5vw);
+    font-family: sans-serif;
+    margin-left: 1vw;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+#InfoBox > h3{
+    background: -webkit-linear-gradient(rgb(76, 0, 255), rgb(65, 209, 253));
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    font-size: calc(16px + 1vw);
+    line-height: calc(1.1em + 0.5vw);
+    font-family: sans-serif;
+    margin-left: 0;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+
+#InfoBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: 40vh; 
+    margin-right: 7vw;
+    margin-left:7vw;
+    background-color: rgb(221, 221, 221);
+    border-radius: 1vw; 
+    margin-top: 7vh;
+    font-size: small;
+    align-items: center;
+}
+
+#MainBox{
+    width: 65vw;
+    height: 90vh;
+    margin-top: 7vh;
+    display: flex; 
+    flex-direction: column;
+}
+
+.GoalBox{
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 10vh; 
+    border-radius: 1vw; 
+    background-color: rgb(221, 221, 221);
+    margin: 1vh;
+    font-family: sans-serif;
+    color:rgb(84, 46, 255)
+}
+
+.GoalBoxInfoContainer{
+    width: 60%;
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+
+.GoalBoxInfo{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    font-size: calc(12px + 0.1vw);
+    line-height: calc(0.8em + 0.1vw);
+}
+
+.button{
+    height: 6vh; 
+    width: 20vw;
+    border-radius: 15px;
+    background-color: rgb(0, 17, 255);
+    color:rgb(221, 221, 221);
+    font-family: sans-serif;
+    font-weight: 100;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+</style>
+
+
+<body style="background-image: linear-gradient(rgb(76, 0, 255), rgb(65, 209, 253))">
+
+    <div id="InfoBox">
+        <h3>Welcome back userID</h3>
+        <p><button class = "button" onclick="document.location='SignUp.html'">Create new Goal</button></p>
+        <p><button class = "button" onclick="document.location='SignUp.html'">Log out</button></p>
+
+
+
+    </div>
+
+    <div id="MainBox"> 
+        <div class="GoalBox"><h3>Goal 1</h3> 
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 2</h3> 
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 3</h3>
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 4</h3>
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 5</h3>
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 6</h3>
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 7</h3>
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+        <div class="GoalBox"><h3>Goal 8</h3>
+            <div class="GoalBoxInfoContainer">
+                <div class="GoalBoxInfo">Info1</div>
+                <div class="GoalBoxInfo">Info2</div>
+                <div class="GoalBoxInfo">Info3</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
