@@ -145,7 +145,7 @@
     }
 
     #data {
-      opacity: 0;
+      display: none;
     }
   </style>
 
@@ -214,7 +214,7 @@
             bool = false;
           }
           let element = document.getElementById("data");
-          element.setAttribute("opacity", "100");
+          element.setAttribute("display", "block");
 
           if (ID.value.length < 5 || ID.value.length > 12) {
             alert("UserID Must be between 5 and 12 characters");
